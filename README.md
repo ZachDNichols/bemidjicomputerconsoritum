@@ -6,7 +6,7 @@ This is the basic layout we will use for the project.
 
 ## **About Us**
 
-#### Zach Nichols
+### Zach Nichols
 Student, Junior </br>
 Major: Computer Science </br>
 Hometown: Grand Rapids, MN </br>
