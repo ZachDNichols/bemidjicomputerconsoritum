@@ -1,6 +1,8 @@
 # Bemidji Code Consortium
 Website for CS2270 Final Project
 
+"Our final project will be a coding blogging website. It will have a main homepage displaying the newest, most popular posts and other relevant information. We will also include another page that includes social links and an about us paragraph. We will design it with simple complementary colors and an elegant interface to make it very user-friendly."
+
 ### This is the basic layout we will use for the project.
 ![alt text](https://github.com/ZachDNichols/bemidjicomputerconsoritum/blob/main/page%20layout.png?raw=true) </br>
 
