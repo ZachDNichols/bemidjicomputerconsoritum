@@ -36,7 +36,6 @@ header::after {
     content: '';
     display: table;
     clear: both;
-
 }
 
 .logo {
@@ -57,7 +56,7 @@ nav ul {
 
 nav li {
     display : inline-block;
-    margin-left: 70px;
+    margin-left: 50px;
     padding-top: 33px;
 }
 
