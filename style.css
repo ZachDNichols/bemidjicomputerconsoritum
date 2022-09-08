@@ -1,0 +1,72 @@
+body {
+    background-color: white;
+    margin: 0;
+    font-family: Louis George Cafe;
+}
+
+@font-face {
+    font-family: Louis George Cafe;
+    src: url("Louis\ George\ Cafe.ttf");
+}
+
+@font-face {
+    font-family: Louis George Cafe Bold;
+    src: url("Louis\ George\ Cafe\ Bold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Louis George Cafe Italic;
+    src: url("Louis\ George\ Cafe\ Italic.ttf");
+    font-style: italic;
+}
+
+.container {
+    font-family: Louis George Cafe;
+    width: 95%;
+    margin : 0 auto;
+}
+
+header{
+    background-color: #ffa800;
+    border-bottom: 8px solid #c70039;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+
+}
+
+.logo {
+    float : left;
+    font-style: italic;
+}
+
+nav {
+    float : right;
+    font-weight: bolder;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display : inline-block;
+    margin-left: 70px;
+    padding-top: 33px;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: large;
+}
+
+nav a:hover {
+    color : #fedb98
+}
