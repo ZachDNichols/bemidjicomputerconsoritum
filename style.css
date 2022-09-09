@@ -108,10 +108,11 @@ nav a:hover::after {
 
 .bios p {
     margin-right : 20px;
+    margin-top : 20px;
     display: table;
 }
 
-.bios img.zach {
+.bios img{
     width : 250px;
     height: 250px;
     float : right;
@@ -123,4 +124,6 @@ nav a:hover::after {
 
 .bios h2 {
     font-family: Louis George Cafe Bold;
+    margin-top: 100px;
+    margin-bottom: 25px;
 }
