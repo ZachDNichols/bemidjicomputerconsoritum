@@ -51,7 +51,7 @@ nav {
 }
 
 nav ul {
-    margin: 0;
+    margin-bottom: 10px;
     padding: 0;
     list-style: none;
 }
@@ -59,7 +59,7 @@ nav ul {
 nav li {
     display : inline-block;
     margin-left: 50px;
-    padding-top: 33px;
+    padding-top: 18px;
 
     position: relative;
 }
