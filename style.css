@@ -27,13 +27,11 @@ body {
     margin : 0 auto;
 }
 
-.container::after{
-    position: sticky;
-}
-
 header{
     background-color: #ffa800;
     border-bottom: 8px solid #c70039;
+    position: sticky;
+    top: 0px
 }
 
 header::after {
@@ -94,7 +92,7 @@ nav a:hover::after {
 
 .about h1{
     display: block;
-    position: absolute;
+    position: static;
     padding-right:calc(100vw - 200px)  ;
     padding-left : 5px;
     background-color: #ff5733;
