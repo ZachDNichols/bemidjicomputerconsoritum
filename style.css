@@ -75,7 +75,7 @@ nav a::after {
     display: block;
     height: 3px;
     width: 0%;
-    background-color: #000;
+    background-color: #c70039;
 
     position: absolute;
     transition: all ease-in-out 250ms;
@@ -83,6 +83,10 @@ nav a::after {
 
 nav a:hover::after {
     width: 100%;
+}
+
+nav a:hover {
+    background-color: #ea9d04;
 }
 
 .about{
@@ -123,4 +127,29 @@ nav a:hover::after {
     font-family: Louis George Cafe Bold;
     margin-top: 125px;
     margin-bottom: 25px;
+}
+
+.aboutcpp {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.aboutcpp h1 {
+    background-color: #ff5733;
+    padding: 3px 3px;
+}
+
+.ccpusedfor {
+    width : 95%;
+    margin: 0 auto;
+}
+
+.ccpusedfor h1 {
+    background-color: #ff5733;
+}
+
+.ccpusedfor img {
+    width : 300px;
+    height: auto;
+    margin: 10px auto;
 }
