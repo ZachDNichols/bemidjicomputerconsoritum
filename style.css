@@ -173,8 +173,32 @@ nav a:hover {
     background-color: #ff5733;
     padding: 3px 3px;
 }
+
+.aboutPython {
+    width: 95%;
+    margin: 0 auto;
+
+}
+.aboutPython h1 {
+    background-color: #ff5733;
+    padding: 3px 3px;
+}
+
+.pythonusedfor {
+    width : 95%;
+    margin: 0 auto;
+}
+
+.pythonusedfor h1 {
+    background-color: #ff5733;
+}
+.pythonusedfor img {
+    width : 300px;
+    height: auto;
+    margin: 10px auto;
+}
 /*Use this to create the nav bar and optimize page for mobile devices or smaller
 sized windows */
 @media only screen and (max-width: 600px){
-    
+
 }
