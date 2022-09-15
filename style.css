@@ -21,26 +21,26 @@ body {
     font-style: italic;
 }
 
-.container {
+.homecontainer {
     font-family: Louis George Cafe;
     width: 95%;
     margin : 0 auto;
 }
 
-header{
+header.home{
     background-color: #ffa800;
     border-bottom: 8px solid #c70039;
     position: sticky;
     top: 0px
 }
 
-header::after {
+header.home::after {
     content: '';
     display: table;
     clear: both;
 }
 
-.logo {
+.homecontainer .logo {
     float : left;
     font-style: italic;
 }
@@ -64,13 +64,13 @@ nav li {
     position: relative;
 }
 
-nav ul li a {
+.homecontainer nav ul li a {
     color: #000;
     text-decoration: none;
     font-size: large;
 }
 
-nav a::after {
+.homecontainer nav a::after {
     content: '';
     display: block;
     height: 3px;
@@ -81,11 +81,11 @@ nav a::after {
     transition: all ease-in-out 250ms;
 }
 
-nav a:hover::after {
+.homecontainer nav a:hover::after {
     width: 100%;
 }
 
-nav a:hover {
+.homecontainer nav a:hover {
     background-color: #ea9d04;
 }
 
@@ -135,8 +135,9 @@ nav a:hover {
 }
 
 .aboutcpp h1 {
-    background-color: #ff5733;
+    background-color: #7544fd;
     padding: 3px 3px;
+    color: #ffffff;
 }
 
 .ccpusedfor {
@@ -145,7 +146,8 @@ nav a:hover {
 }
 
 .ccpusedfor h1 {
-    background-color: #ff5733;
+    background-color: #7544fd;
+    color: #ffffff;
 }
 
 .ccpusedfor img {
@@ -160,7 +162,7 @@ nav a:hover {
 }
 
 .aboutGIS h1 {
-    background-color: #ff5733;
+    background-color: #6ab468;
     padding: 3px 3px;
 }
 
@@ -170,7 +172,7 @@ nav a:hover {
 }
 
 .GISuses h1 {
-    background-color: #ff5733;
+    background-color: #6ab468;
     padding: 3px 3px;
 }
 
@@ -180,8 +182,9 @@ nav a:hover {
 
 }
 .aboutPython h1 {
-    background-color: #ff5733;
+    background-color: #3d79aa;
     padding: 3px 3px;
+    color:rgb(255, 255, 255);
 }
 
 .pythonusedfor {
@@ -190,15 +193,317 @@ nav a:hover {
 }
 
 .pythonusedfor h1 {
-    background-color: #ff5733;
+    background-color: #3d79aa;
+    color:rgb(255, 255, 255);
 }
 .pythonusedfor img {
     width : 300px;
     height: auto;
     margin: 10px auto;
 }
-/*Use this to create the nav bar and optimize page for mobile devices or smaller
-sized windows */
-@media only screen and (max-width: 600px){
 
+/*Customized container for cpp*/
+.cppcontainer {
+    font-family: Louis George Cafe;
+    width: 95%;
+    margin : 0 auto;
+}
+
+.cppcontainer .logo {
+    float : left;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+}
+
+.cppcontainer nav a:hover::after {
+    width: 100%;
+}
+
+header.cpp{
+    background-color: #4e77f0;
+    border-bottom: 8px solid #5000c7;
+    position: sticky;
+    top: 0px
+}
+
+header.cpp::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.cppcontainer nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: large;
+}
+
+.cppcontainer nav a::after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0%;
+    background-color: #ffffff;
+
+    position: absolute;
+    transition: all ease-in-out 250ms;
+}
+
+.cppcontainer nav a:hover {
+    background-color: #4262c1;
+}
+
+/*Customized container for css*/
+.csscontainer {
+    font-family: Louis George Cafe;
+    width: 95%;
+    margin : 0 auto;
+}
+
+header.css{
+    background-color: #aa00ff;
+    border-bottom: 8px solid #7a059e;
+    position: sticky;
+    top: 0px
+}
+
+.csscontainer .logo {
+    float : left;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+}
+
+.csscontainer nav a:hover::after {
+    width: 100%;
+}
+
+header.css::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.csscontainer nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: large;
+}
+
+.csscontainer nav a::after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0%;
+    background-color: #ffffff;
+
+    position: absolute;
+    transition: all ease-in-out 250ms;
+}
+
+.csscontainer nav a:hover {
+    background-color: #7b03b8;
+}
+
+/*Customized container for gis*/
+.giscontainer {
+    font-family: Louis George Cafe;
+    width: 95%;
+    margin : 0 auto;
+}
+
+header.gis {
+    background-color: #028b32;
+    border-bottom: 8px solid #004e11;
+    position: sticky;
+    top: 0px
+}
+
+.giscontainer .logo {
+    float : left;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+}
+
+.giscontainer nav a:hover::after {
+    width: 100%;
+}
+
+header.gis::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.giscontainer nav ul li a {
+    color: rgb(255, 253, 253);
+    text-decoration: none;
+    font-size: large;
+}
+
+.giscontainer nav a::after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0%;
+    background-color: #ffffff;
+
+    position: absolute;
+    transition: all ease-in-out 250ms;
+}
+
+.giscontainer nav a:hover {
+    background-color: #015a20;
+}
+
+/*Customized container for html*/
+.htmlcontainer {
+    font-family: Louis George Cafe;
+    width: 95%;
+    margin : 0 auto;
+}
+
+.htmlcontainer .logo {
+    float : left;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+
+.htmlcontainer nav a:hover::after {
+    width: 100%;
+}
+
+header.html {
+    background-color: #fa812a;
+    border-bottom: 8px solid #ff1e1e;
+    position: sticky;
+    top: 0px
+}
+
+header.html::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.htmlcontainer nav ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: large;
+}
+
+.htmlcontainer nav a::after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0%;
+    background-color: #000000;
+
+    position: absolute;
+    transition: all ease-in-out 250ms;
+}
+
+.htmlcontainer nav a:hover {
+    background-color: #f07e2c;
+}
+
+/*Customized container for */
+.pycontainer {
+    font-family: Louis George Cafe;
+    width: 95%;
+    margin : 0 auto;
+}
+
+.pycontainer .logo {
+    float : left;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+}
+
+.pycontainer nav a:hover::after {
+    width: 100%;
+}
+
+header.py {
+    background-color: #3d79aa;
+    border-bottom: 8px solid #ffe05d;
+    position: sticky;
+    top: 0px
+}
+
+header.py::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.pycontainer nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: large;
+}
+
+.pycontainer nav a::after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0%;
+    background-color: #ffffff;
+
+    position: absolute;
+    transition: all ease-in-out 250ms;
+}
+
+.pycontainer nav a:hover {
+    background-color: #2b5679;
+}
+
+/*Customized container for resources*/
+.rescontainer {
+    font-family: Louis George Cafe;
+    width: 95%;
+    margin : 0 auto;
+}
+
+.rescontainer .logo {
+    float : left;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+}
+
+.rescontainer nav a:hover::after {
+    width: 100%;
+}
+
+header.res{
+    background-color: #444342;
+    border-bottom: 8px solid #000000;
+    position: sticky;
+    top: 0px
+}
+
+header.res::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.rescontainer nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: large;
+}
+
+.rescontainer nav a::after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0%;
+    background-color: #ffffff;
+
+    position: absolute;
+    transition: all ease-in-out 250ms;
+}
+
+.rescontainer nav a:hover {
+    background-color: #2e2e2e;
 }
