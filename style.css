@@ -21,20 +21,20 @@ body {
     font-style: italic;
 }
 
-.container {
+.homecontainer {
     font-family: Louis George Cafe;
     width: 95%;
     margin : 0 auto;
 }
 
-header{
+header.home{
     background-color: #ffa800;
     border-bottom: 8px solid #c70039;
     position: sticky;
     top: 0px
 }
 
-header::after {
+header.home::after {
     content: '';
     display: table;
     clear: both;
@@ -64,13 +64,13 @@ nav li {
     position: relative;
 }
 
-nav ul li a {
+.homecontainer nav ul li a {
     color: #000;
     text-decoration: none;
     font-size: large;
 }
 
-nav a::after {
+.homecontainer nav a::after {
     content: '';
     display: block;
     height: 3px;
@@ -85,7 +85,7 @@ nav a:hover::after {
     width: 100%;
 }
 
-nav a:hover {
+.homecontainer nav a:hover {
     background-color: #ea9d04;
 }
 
@@ -197,8 +197,249 @@ nav a:hover {
     height: auto;
     margin: 10px auto;
 }
-/*Use this to create the nav bar and optimize page for mobile devices or smaller
-sized windows */
-@media only screen and (max-width: 600px){
 
+/*Customized container for cpp*/
+.cppcontainer {
+    font-family: Louis George Cafe;
+    width: 95%;
+    margin : 0 auto;
+}
+
+header.cpp{
+    background-color: #ffa800;
+    border-bottom: 8px solid #c70039;
+    position: sticky;
+    top: 0px
+}
+
+header.cpp::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.cppcontainer nav ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: large;
+}
+
+.cppcontainer nav a::after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0%;
+    background-color: #c70039;
+
+    position: absolute;
+    transition: all ease-in-out 250ms;
+}
+
+.cppcontainer nav a:hover {
+    background-color: #ea9d04;
+}
+
+/*Customized container for css*/
+.csscontainer {
+    font-family: Louis George Cafe;
+    width: 95%;
+    margin : 0 auto;
+}
+
+header.css{
+    background-color: #ffa800;
+    border-bottom: 8px solid #c70039;
+    position: sticky;
+    top: 0px
+}
+
+header.css::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.csscontainer nav ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: large;
+}
+
+.csscontainer nav a::after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0%;
+    background-color: #c70039;
+
+    position: absolute;
+    transition: all ease-in-out 250ms;
+}
+
+.csscontainer nav a:hover {
+    background-color: #ea9d04;
+}
+
+/*Customized container for */
+.container {
+    font-family: Louis George Cafe;
+    width: 95%;
+    margin : 0 auto;
+}
+
+header{
+    background-color: #ffa800;
+    border-bottom: 8px solid #c70039;
+    position: sticky;
+    top: 0px
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container nav ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: large;
+}
+
+.container nav a::after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0%;
+    background-color: #c70039;
+
+    position: absolute;
+    transition: all ease-in-out 250ms;
+}
+
+.container nav a:hover {
+    background-color: #ea9d04;
+}
+
+/*Customized container for */
+.container {
+    font-family: Louis George Cafe;
+    width: 95%;
+    margin : 0 auto;
+}
+
+header{
+    background-color: #ffa800;
+    border-bottom: 8px solid #c70039;
+    position: sticky;
+    top: 0px
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container nav ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: large;
+}
+
+.container nav a::after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0%;
+    background-color: #c70039;
+
+    position: absolute;
+    transition: all ease-in-out 250ms;
+}
+
+.container nav a:hover {
+    background-color: #ea9d04;
+}
+
+/*Customized container for */
+.container {
+    font-family: Louis George Cafe;
+    width: 95%;
+    margin : 0 auto;
+}
+
+header{
+    background-color: #ffa800;
+    border-bottom: 8px solid #c70039;
+    position: sticky;
+    top: 0px
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container nav ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: large;
+}
+
+.container nav a::after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0%;
+    background-color: #c70039;
+
+    position: absolute;
+    transition: all ease-in-out 250ms;
+}
+
+.container nav a:hover {
+    background-color: #ea9d04;
+}
+
+/*Customized container for */
+.container {
+    font-family: Louis George Cafe;
+    width: 95%;
+    margin : 0 auto;
+}
+
+header{
+    background-color: #ffa800;
+    border-bottom: 8px solid #c70039;
+    position: sticky;
+    top: 0px
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container nav ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: large;
+}
+
+.container nav a::after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0%;
+    background-color: #c70039;
+
+    position: absolute;
+    transition: all ease-in-out 250ms;
+}
+
+.container nav a:hover {
+    background-color: #ea9d04;
 }
