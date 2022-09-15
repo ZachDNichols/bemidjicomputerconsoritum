@@ -507,3 +507,22 @@ header.res::after {
 .rescontainer nav a:hover {
     background-color: #2e2e2e;
 }
+
+.github {
+    width: 95%;
+    margin: 0 auto;
+}
+
+h2.branches {
+    background-color: #444342;
+    color: #FFFFFF;
+    padding: 3px 3px;
+}
+
+.github h3{
+    padding: 3px 3px;
+}
+
+.github p {
+    font-weight: 200px;
+}
