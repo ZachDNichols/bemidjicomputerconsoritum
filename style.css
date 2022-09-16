@@ -526,3 +526,7 @@ h2.branches {
 .github p {
     font-weight: 200px;
 }
+
+.github img {
+    width: 55%;
+}
