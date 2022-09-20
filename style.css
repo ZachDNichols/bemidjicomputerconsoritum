@@ -406,7 +406,16 @@ header.html::after {
     background-color: #f07e2c;
 }
 
-/*Customized container for */
+.abouthtml {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.abouthtml h1 {
+    background-color: #f07e2c;
+}
+
+/*Customized container for python*/
 .pycontainer {
     font-family: Louis George Cafe;
     width: 95%;
