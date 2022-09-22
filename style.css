@@ -211,6 +211,7 @@ header.cpp::after {
 .cpptutorial {
     width: 95%;
     margin: 0 auto;
+    
 }
 
 .cpptutorial h1 {
@@ -223,6 +224,7 @@ header.cpp::after {
     background-color: #9f7ff7;
     color: #FFFFFF;
     padding: 3px 3px;
+
 }
 
 .cpptutorial a {
@@ -231,6 +233,11 @@ header.cpp::after {
 
 .cpptutorial img {
     width: 55%;
+}
+
+.cpptutorial a img {
+    width: 100px;
+    float: right;
 }
 
 
