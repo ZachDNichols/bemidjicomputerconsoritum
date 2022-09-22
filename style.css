@@ -20,7 +20,27 @@ body {
     src: url("Louis\ George\ Cafe\ Italic.ttf");
     font-style: italic;
 }
+/*Site wide info*/
+nav {
+    float : right;
+    font-weight: bolder;
+}
 
+nav ul {
+    margin-bottom: 10px;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display : inline-block;
+    margin-left: 30px;
+    padding-top: 18px;
+
+    position: relative;
+}
+
+/*Home container info*/
 .homecontainer {
     font-family: Louis George Cafe;
     width: 95%;
@@ -43,25 +63,6 @@ header.home::after {
 .homecontainer .logo {
     float : left;
     font-style: italic;
-}
-
-nav {
-    float : right;
-    font-weight: bolder;
-}
-
-nav ul {
-    margin-bottom: 10px;
-    padding: 0;
-    list-style: none;
-}
-
-nav li {
-    display : inline-block;
-    margin-left: 30px;
-    padding-top: 18px;
-
-    position: relative;
 }
 
 .homecontainer nav ul li a {
@@ -129,79 +130,6 @@ nav li {
     margin-bottom: 25px;
 }
 
-.aboutcpp {
-    width: 95%;
-    margin: 0 auto;
-}
-
-.aboutcpp h1 {
-    background-color: #7544fd;
-    padding: 3px 3px;
-    color: #ffffff;
-}
-
-.ccpusedfor {
-    width : 95%;
-    margin: 0 auto;
-}
-
-.ccpusedfor h1 {
-    background-color: #7544fd;
-    color: #ffffff;
-}
-
-.ccpusedfor img {
-    width : 300px;
-    height: auto;
-    margin: 10px auto;
-}
-
-.aboutGIS {
-    width: 95%;
-    margin: 0 auto;
-}
-
-.aboutGIS h1 {
-    background-color: #6ab468;
-    padding: 3px 3px;
-}
-
-.GISuses {
-    width: 95%;
-    margin: 0 auto;
-}
-
-.GISuses h1 {
-    background-color: #6ab468;
-    padding: 3px 3px;
-}
-
-.aboutPython {
-    width: 95%;
-    margin: 0 auto;
-
-}
-.aboutPython h1 {
-    background-color: #3d79aa;
-    padding: 3px 3px;
-    color:rgb(255, 255, 255);
-}
-
-.pythonusedfor {
-    width : 95%;
-    margin: 0 auto;
-}
-
-.pythonusedfor h1 {
-    background-color: #3d79aa;
-    color:rgb(255, 255, 255);
-}
-.pythonusedfor img {
-    width : 300px;
-    height: auto;
-    margin: 10px auto;
-}
-
 /*Customized container for cpp*/
 .cppcontainer {
     font-family: Louis George Cafe;
@@ -251,6 +179,33 @@ header.cpp::after {
 
 .cppcontainer nav a:hover {
     background-color: #4262c1;
+}
+
+.aboutcpp {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.aboutcpp h1 {
+    background-color: #7544fd;
+    padding: 3px 3px;
+    color: #ffffff;
+}
+
+.ccpusedfor {
+    width : 95%;
+    margin: 0 auto;
+}
+
+.ccpusedfor h1 {
+    background-color: #7544fd;
+    color: #ffffff;
+}
+
+.ccpusedfor img {
+    width : 300px;
+    height: auto;
+    margin: 10px auto;
 }
 
 /*Customized container for css*/
@@ -353,6 +308,26 @@ header.gis::after {
 
 .giscontainer nav a:hover {
     background-color: #015a20;
+}
+
+.aboutGIS {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.aboutGIS h1 {
+    background-color: #6ab468;
+    padding: 3px 3px;
+}
+
+.GISuses {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.GISuses h1 {
+    background-color: #6ab468;
+    padding: 3px 3px;
 }
 
 /*Customized container for html*/
@@ -464,6 +439,32 @@ header.py::after {
 
 .pycontainer nav a:hover {
     background-color: #2b5679;
+}
+
+.aboutPython {
+    width: 95%;
+    margin: 0 auto;
+
+}
+.aboutPython h1 {
+    background-color: #3d79aa;
+    padding: 3px 3px;
+    color:rgb(255, 255, 255);
+}
+
+.pythonusedfor {
+    width : 95%;
+    margin: 0 auto;
+}
+
+.pythonusedfor h1 {
+    background-color: #3d79aa;
+    color:rgb(255, 255, 255);
+}
+.pythonusedfor img {
+    width : 300px;
+    height: auto;
+    margin: 10px auto;
 }
 
 /*Customized container for resources*/
