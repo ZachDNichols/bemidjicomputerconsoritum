@@ -20,7 +20,7 @@ body {
     src: url("Louis\ George\ Cafe\ Italic.ttf");
     font-style: italic;
 }
-/*Site wide info*/
+/*CSS stuff used site wide*/
 nav {
     float : right;
     font-weight: bolder;
