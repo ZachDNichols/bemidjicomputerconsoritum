@@ -225,8 +225,12 @@ header.cpp::after {
     padding: 3px 3px;
 }
 
-.XcodeLink{
+.cpptutorial a {
     color: #7544fd;
+}
+
+.cpptutorial img {
+    width: 55%;
 }
 
 
