@@ -10,13 +10,13 @@ body {
 }
 
 @font-face {
-    font-family: Louis George Cafe Bold;
+    font-family: Louis George Cafe B;
     src: url("Louis\ George\ Cafe\ Bold.ttf");
     font-weight: bold;
 }
 
 @font-face {
-    font-family: Louis George Cafe Italic;
+    font-family: Louis George Cafe I;
     src: url("Louis\ George\ Cafe\ Italic.ttf");
     font-style: italic;
 }
@@ -199,6 +199,7 @@ header.cpp::after {
 
 .ccpusedfor h1 {
     background-color: #7544fd;
+    padding: 3px 3px;
     color: #ffffff;
 }
 
@@ -238,6 +239,10 @@ header.cpp::after {
 .cpptutorial a img {
     width: 100px;
     float: right;
+}
+
+.cpptutorial h3 b {
+    font-family: "Louis George Cafe B";
 }
 
 
