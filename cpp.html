@@ -111,9 +111,50 @@
             <h3><b>Step 4</b> - Create a Template Directory</h3>
             <p>To avoid having to set up the Clang compiler inside of VS code multiple times, it is a good idea to set up a template directory we want to use
                 to create our future C++ projects in.</p>
-            
-        </div>
-        
+            <img src = "macCPPcompiler/1.png" alt = "Creating a template folder for VS code C++ projects" title = "Creating a template folder for VS code C++ projects">
+            <p>The first thing we need to do is create our template directory. We are just going to call this "VS Code Template Directory",
+                but you can name this whatever you want.</p>
+            <img src = "macCPPcompiler/2.png" alt = "Open template folder inside of Visual Studio Code" title = "Open template folder inside of Visual Studio Code">
+            <p>The next thing we are going to do is open up Visual Studio Code, and then open that new folder we just
+                created inside of Visual Studio code.</p>
+            <img src = "macCPPcompiler/3.png" alt = "Trust the author of the folder" title = "Trust the author of the folder">
+            <p>You may get a prompt from Visual Studio similar to this asking if you wish to trust the authors. This is a security
+                feature built into Visual Studio Code, and is there in the event you may accidentally download malicious code from the web.
+                In this instance, since we are the author and creator of the folder, we are going to click "Trust".</p>
+            <img src = "macCPPcompiler/4.png" alt = "Create new main.cpp file" title = "Create new main.cpp file">
+            <p>Now that we are inside of folder in Visual Studio Code, we need to create our main.cpp file.
+                To do this, we are going to click the "Create File" button at the top of our template folder.</p>
+            <img src = "macCPPcompiler/5.png" alt = "New C++ file was created." title = "New C++ file was created">
+            <p>As you can see, a new C++ file was created inside of the folder. If it does not open automatically, you will
+                want to click on the file to open it in the editor.</p>
+            <img src = "macCPPcompiler/6.png" alt = "Writing our main function in the main.cpp file" title = "Writing our main function in the main.cpp file">
+            <p>Inside of our editor, we are going to write a simple "Hello World" program to test that our C++ compiler is functioning properly. 
+                In the editor, we are going to write the following: 
+<pre class = "cpppre">
+#include &lt;iostream&gt;
 
+int main()
+{
+    std::cout &lt;&lt; "Hello World";
+
+    return 0;
+}
+</pre>
+            </p>
+            <img src = "macCPPcompiler/7.png" alt = "Clicking the Configure Tasks button" title = "Clicking the Configure Tasks button">
+            <p>After we have typed out our main function, we are then going to click Terminal in the menu bar, and then click the
+                "Configure Tasks" button.</p>
+            <img src = "macCPPcompiler/8.png" alt = "Clicking the clang++ option" title = "Clicking the clang++ option">
+            <p>After that we will have a menu appear. This will show us the available "tasks" we can perform.
+                Because we want to build a C++ file with Clang, we are going to click the "clang++" option.</p>
+            <img src = "macCPPcompiler/9.png" alt = "taks.json file created" title = "taks.json file created">
+            <p>This will create a tasks.json file for the code editor to use to compile our code. If you wish to learn more about the
+                different parameters you can select, you can read this <a href="https://code.visualstudio.com/docs/cpp/config-clang-mac">documentation</a>
+                from Microsoft for more information.</p>
+            <img src = "macCPPcompiler/10.png" alt = "Compiling the C++ code" title = "Compiling the C++ code">
+            <p>After we do this, we are going to navigate back to our C++ file and click the run button. It is important to note,
+                if you see the run button with the bug icon on it, you need to click the drop-down menu to the right and click the
+                "run default tasks" option.</p>
+        </div>
     </body>
 </html>

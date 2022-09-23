@@ -245,6 +245,12 @@ header.cpp::after {
     font-family: "Louis George Cafe B";
 }
 
+.cpppre {
+    padding: 4px 4px;
+    display: inline-block; 
+    border:2px solid #7544fd;
+}
+
 
 /*Customized container for css*/
 .csscontainer {
