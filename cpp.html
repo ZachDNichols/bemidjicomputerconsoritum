@@ -66,26 +66,83 @@
                 and while there are lots out there ranging from extremely simple to incredibly powerful,
                 we're going to use Visual Studio Code as it has a nice feature set, and is pretty simple to use.
                 Just click the Visual Studio Code logo on the right to get access to the download page!
-                <br/><br/>
-            </p>
+                <br/><br/></p>
             <h3><b>Step 2</b> - Get the C++ Extensions</h3>
             <img src = "winCPPcompiler/1.png" alt = "Click the extensions button" title = "Navigate to the extensions tab">
             <p>The nice thing about Visual Studio Code, is that you can accessorize it with various extensions.
                 For this tutorial, we will be using the extensions needed for C++. These extensions will add things like Intellisense,
-                support for C++ as whole, and more! To do this, we will navigate to the extension panel.
-            </p>
+                support for C++ as whole, and more! To do this, we will navigate to the extension panel.</p>
             <img src = "winCPPcompiler/2.png" alt = "Searching for and installing the C++ extension pack" title = "Searching for and installing the C++ extension pack">
             <p>We will want to search for the C++ extension pack created by Microsoft. This will let us have access to
                 helpful features like C++ support, and Intellisense.</p>
+            <h3><b>Step 3</b> - Create Template Directory</h3>
             <img src = "winCPPcompiler/3.png" alt = "Creating the template directory" title = "Creating the template directory">
             <p>Next, we are going to create a directory for our project template. This will allow us
                 to reuse the same folder for future C++ programs we choose to create.</p>
+            <h3><b>Step 4</b> - Download the Compilers</h3>
             <img src = "winCPPcompiler/4.png" alt = "Downloading the compile executables" title = "Downloading the compile executables">
             <p>Go to this <a href = "https://winlibs.com/">website</a>. Here, download the .zip file for the compilers.
             Depending on if your operating system is 32 or 64 bit will determine which one you should download.
             Make sure to download the first option.</p>
-
-            
+            <img src = "winCPPcompiler/5.png" alt = "Extract the downloaded zip file" title = "Extract the downloaded zip file">
+            <p>After you download the zip file, we will want to extract it to a location somewhere we will be able to remember
+                soon. </p>
+            <img src = "winCPPcompiler/6.png" alt = "mingw64 folder inside of extracted zip file" title = "mingw64 folder inside of extracted zip file">
+            <p>Inside the file, you will see a file named something along the lines of "mingw64". Inside of the file, you will see another
+                folder named "bin". You will want to store the mingw file somewhere you can leave sit, and you will want to remember the
+                address of the bin file once you move the parent directory. In this case, we are going to move the mingw folder to our
+                C drive, but you can put it wherever fits best for you.</p>
+            <img src = "winCPPcompiler/7.png" alt = "Searching for the system environment variables in the start menu" title = "Searching for the system environment variables in the start menu">
+            <p>Now that we have set up to location of the compilers, we will want to add them to our Windows environment variables.
+            To do this, we will search for our our system environment variables in the start menu, or through the control panel.</p>
+            <img src = "winCPPcompiler/8.png" alt = "This opens the system properties folder. Click the environment variables button." title = "This opens the system properties folder. Click the environment variables button">
+            <p>This will open the system properties. Make sure you navigate to the advanced tab. Once you are in the advanced tab,
+                you will want to click the "Environment Variables" button.</p>
+            <img src = "winCPPcompiler/9.png" alt = "Edit the path variables" title = "Edit the path variables">
+            <p>This will open another window to allow you to edit the environment variables. You will want to click on the "Path" option 
+                under the user variables table. After it is selected, click edit.</p>
+            <img src = "winCPPcompiler/10.png" alt = "Add a new environment" title = "Add a new environment">
+            <p>This will open up another Window showing all the directories under this variable. We will want to click the
+                "new" button to add our compilers. This will let us type a text box in the list of paths. We will want to paste
+                the address of our mingw bin folder. Once we do that, click "Okay".</p>
+            <h3><b>Step 5</b> - Finish Creating Template Directory</h3>
+            <img src = "winCPPcompiler/12.png" alt = "Open the template directory in VS Code" title = "Open the template directory in VS Code">
+            <p>Once we have added our compilers to our path folder, we want to now open our template directory in Visual Studio Code.</p>
+            <img src = "winCPPcompiler/13.png" alt = "Create a new file in the directory" title = "Create a new file in the directory">
+            <p>After we open the directory in Visual Studio Code, we will want to then create a new file by clicking the "New File" button.</p>
+            <img src = "winCPPcompiler/14.png" alt = "Create the main.cpp file" title = "Create the main.cpp file">
+            <p>We will then create a new file. We will name it "main.cpp". In the file, we will type a simple hello world program.
+                This is to test the compiler, and make sure our program works. In the C++ file, we will want to type the follow code:
+<pre class = "cpppre">
+    #include &lt;iostream&gt;
+    
+    int main()
+    {
+        std::cout &lt;&lt; "Hello World";
+    
+        return 0;
+    }</pre>
+            </p>
+            <img src = "winCPPcompiler/15.png" alt = "Select the G++ compiler to configure" title = "Select the G++ compiler to configure">
+            <p>After that, we will want to click the terminal button at the top of the window. In that menu, we will want to click the
+                "Configure tasks" button. This will open a menu to select detected tasks to configure. We will want to select the G++ option.</p>
+            <img src = "winCPPcompiler/16.png" alt = ".json file created" title = ".json file created">
+            <p>This will create a .json file. This is used by Visual Studio Code to assist it in knowing how to compile our program.
+            For more information on how to configure the .json file, you can read this <a href = "https://code.visualstudio.com/docs/cpp/config-mingw">article</a>
+            from Microsoft.</p>
+            <img src = "winCPPcompiler/17.png" alt = "Run the C++ file" title = "Run the C++ file">
+            <p>Now that we have configured the C++ compiler inside of Visual Studio Code, we will want to make sure it works.
+            To do this, we will navigate back to our C++ file, and click the run button in the top right.</p>
+            <img src = "winCPPcompiler/18.png" alt = "Select the G++ configured task" title = "Select the G++ configured task">
+            <p>This will open a menu to let us decide which task we want to run to compile our C++ project. We will
+                select the configured the G++ task.</p>
+            <img src = "winCPPcompiler/19.png" alt = "Compiled an ran C++ program" title = "Compiled an ran C++ program">
+            <p>This will then compile the C++ project. Depending on your settings, Visual Studio may automatically run the
+                executable file created.</p>
+            <img src = "winCPPcompiler/20.png" alt = "Running our exe file" title = "Running our exe file">
+            <p>If visual studio does not run the program automatically, do not worry. To run the program, we will
+                open a new terminal, and type "./main". We will then see the output of our program in the terminal.</p>
+            <p>Congratulations, you have set up your Windows C++ development environment!</p>
 
             <h2>Setting up C++ Development on MacOS</h2>
             <p>Just like the Windows operating system, setting up a C++ compiler is not that hard.
@@ -152,8 +209,7 @@ int main()
     std::cout &lt;&lt; "Hello World";
 
     return 0;
-}
-</pre>
+}</pre>
             </p>
             <img src = "macCPPcompiler/7.png" alt = "Clicking the Configure Tasks button" title = "Clicking the Configure Tasks button">
             <p>After we have typed out our main function, we are then going to click Terminal in the menu bar, and then click the
@@ -181,6 +237,8 @@ int main()
                 We will do this by typing "./main".</p>
             <img src = "macCPPcompiler/15.png" alt = "Hello World! output in terminal" title = "Hello World! output in terminal">
             <p>You will see the output from the program in the terminal. Since all our program does is print "Hello World!", that is all that is output.</p>
+            <p>Congratulations, you have set up your MacOS C++ development environment!</p>
+            
         </div>
     </body>
 </html>
