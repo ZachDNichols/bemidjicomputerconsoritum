@@ -499,16 +499,63 @@ header.py::after {
 .pythonusedfor {
     width : 95%;
     margin: 0 auto;
+    padding: 3px 3px
 }
 
 .pythonusedfor h1 {
     background-color: #3d79aa;
     color:rgb(255, 255, 255);
+    padding: 3px 3px
 }
 .pythonusedfor img {
-    width : 300px;
+    width : 20%;
     height: auto;
-    margin: 10px auto;
+    margin: 0px auto;
+    padding: 0%;
+}
+
+#step1img {
+    width: 80%;
+    padding-left: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#step2img {
+    width: 8%;
+    padding-left: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#step3img {
+    width: 80%;
+    padding-left: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pythontutorial {
+    width: 95%;
+    margin: 0 auto;
+    
+}
+
+.pythontutorial h1 {
+    background-color: #3d79aa;
+    color:rgb(255, 255, 255);
+    padding: 3px 3px
+}
+
+.pythontutorial h2 {
+    background-color: #558cb8;
+    color:rgb(255, 255, 255);
+}
+.pythontutorial h3 b {
+    font-family: "Louis George Cafe B";
+}
+.pythontutorial blockquote {
+    background-color: rgb(210, 210, 210);
+    
 }
 
 /*Customized container for resources*/
