@@ -527,8 +527,22 @@ header.py::after {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+#step2-2img {
+    width: 80%;
+    padding-left: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 #step3img {
     width: 80%;
+    padding-left: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#step3-2img {
+    width: 20%;
     padding-left: 5%;
     padding-top: 20px;
     padding-bottom: 20px;
