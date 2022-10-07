@@ -51,12 +51,12 @@ header.home{
     background-color: #ffa800;
     border-bottom: 8px solid #c70039;
     position: sticky;
-    top: 0px
+    top: 0px;
 }
 
 header.home::after {
     content: '';
-    display: table;
+    display: flex;
     clear: both;
 }
 
@@ -125,14 +125,14 @@ header.home::after {
 }
 
 .bios h2 {
-    font-family: Louis George Cafe Bold;
+    font-family: Louis George Cafe;
     margin-top: 125px;
     margin-bottom: 25px;
 }
 
 /*Customized container for cpp*/
 .cppcontainer {
-    font-family: Louis George Cafe;
+    font-family: Louis George Cafe B;
     width: 95%;
     margin : 0 auto;
 }
