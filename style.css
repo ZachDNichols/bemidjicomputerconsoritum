@@ -103,7 +103,7 @@ body {
     display: fixed;
     background-color: inherit;
     z-index: 1;
-    transform: translateY(-100%);
+    transform: translateY(-200%);
     transition: all ease-in-out 250ms;
     color: inherit;
 }
@@ -132,7 +132,7 @@ body {
     display: fixed;
     background-color: inherit;
     z-index: 1;
-    transform: translateY(-100%);
+    transform: translateY(-200%);
     transition: all ease-in-out 250ms;
     color: inherit;
 }
@@ -161,7 +161,7 @@ body {
     display: fixed;
     background-color: inherit;
     z-index: 1;
-    transform: translateY(-100%);
+    transform: translateY(-200%);
     transition: all ease-in-out 250ms;
     color: inherit;
 }
@@ -190,7 +190,7 @@ body {
     display: fixed;
     background-color: inherit;
     z-index: 1;
-    transform: translateY(-100%);
+    transform: translateY(-200%);
     transition: all ease-in-out 250ms;
     color: inherit;
 }
@@ -219,7 +219,7 @@ body {
     display: fixed;
     background-color: inherit;
     z-index: 1;
-    transform: translateY(-100%);
+    transform: translateY(-200%);
     transition: all ease-in-out 250ms;
     color: inherit;
 }
@@ -248,7 +248,7 @@ body {
     display: fixed;
     background-color: inherit;
     z-index: 1;
-    transform: translateY(-100%);
+    transform: translateY(-200%);
     transition: all ease-in-out 250ms;
     color: inherit;
 }
@@ -277,7 +277,7 @@ body {
     display: fixed;
     background-color: inherit;
     z-index: 1;
-    transform: translateY(-100%);
+    transform: translateY(-200%);
     transition: all ease-in-out 250ms;
     color: inherit;
 }
