@@ -375,8 +375,13 @@ header.gis::after {
 }
 
 .GISGTTS {
-    width: 90%;
-    marginfi: 0 auto;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.GISGTTS h1 {
+    background-color: #6ab468;
+    padding: 3px 3px;
 }
 
 /*Customized container for html*/
