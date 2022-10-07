@@ -374,6 +374,11 @@ header.gis::after {
     padding: 3px 3px;
 }
 
+.GISGTTS {
+    width: 90%;
+    marginfi: 0 auto;
+}
+
 /*Customized container for html*/
 .htmlcontainer {
     font-family: Louis George Cafe;
