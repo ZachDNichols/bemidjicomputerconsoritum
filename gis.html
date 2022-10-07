@@ -4,26 +4,77 @@
         <title>GIS - Bemidji Computer Consortium</title>
         <link rel="stylesheet" href="style.css">
         <link rel="icon" type="image/x-icon" href="favicons/GIS.png">
-
+        <script defer src = "main.js"></script>
     </head>
 
     <body>
         <header class = gis>
             <div class = "giscontainer">
                 <h1 class = "logo">Bemidji Computer Consortium</h1>
-                <nav>
+                <nav class = "desktop">
                     <ul>
-                        <li><a href="home.html">Home</a></li>
-                        <li><a href="resources.html">Resources</a></li>
-                        <li><a href="cpp.html">C++</a></li>
-                        <li><a href="html.html">HTML</a></li>
-                        <li><a href="python.html">Python</a></li>
-                        <li><a href="css.html">CSS</a></li>
-                        <li><a href="gis.html">GIS</a></li>
+                        <li class = "navbar_item">
+                        <button class = "home_button">Home<img src = "ui_images/Dropdown_white.png"></button> </li>
+                        <li class = "navbar_item"><button class = "resources_button">Resources <img src = "ui_images/Dropdown_white.png"></button></li>
+                        <li class = "navbar_item"><button class = "cpp_button">C++<img src = "ui_images/Dropdown_white.png"></button></li>
+                        <li class = "navbar_item"><button class = "html_button">HTML<img src = "ui_images/Dropdown_white.png"></button></li>
+                        <li class = "navbar_item"><button class = "python_button">Python<img src = "ui_images/Dropdown_white.png"></button></li>
+                        <li class = "navbar_item"><button class = "css_button">CSS<img src = "ui_images/Dropdown_white.png"></button></li>
+                        <li class = "navbar_item"><button class = "gis_button">GIS<img src = "ui_images/Dropdown_white.png"></button></li>
                     </ul>
                 </nav>
             </div>
         </header>
+        <div class = "gis_theme">
+            <nav class = "home_dropdown_menu">
+                <h3>Home</h3>
+                <ul class = "home_dropdown_items">
+                    <li><a href = "home.html">About Us</a></li>
+                </ul>
+            </nav>
+
+            <nav class = "resources_dropdown_menu">
+                <h3>Resources</h3>
+                <ul class = "resources_dropdown_items">
+                    <li><a href = "resources.html">Set Up a GitHub Branch</a></li>
+                </ul>
+            </nav>
+
+            <nav class = "cpp_dropdown_menu">
+                <h3>C++</h3>
+                <ul class = "cpp_dropdown_items">
+                    <li><a href = "cpp.html">What is C++?</a></li>
+                </ul>
+            </nav>
+
+            <nav class = "html_dropdown_menu">
+                <h3>HTML</h3>
+                <ul class = "html_dropdown_items">
+                    <li><a href = "html.html">What is HTML?</a></li>
+                </ul>
+            </nav>
+
+            <nav class = "py_dropdown_menu">
+                <h3>Python</h3>
+                <ul class = "py_dropdown_items">
+                    <li><a href = "python.html">What is Python?</a></li>
+                </ul>
+            </nav>
+
+            <nav class = "css_dropdown_menu">
+                <h3>CSS</h3>
+                <ul class = "css_dropdown_items">
+                    <li><a href = "css.html">What is CSS?</a></li>
+                </ul>
+            </nav>
+
+            <nav class = "gis_dropdown_menu">
+                <h3>GIS</h3>
+                <ul class = "gis_dropdown_items">
+                    <li><a href = "gis.html">What is GIS</a></li>
+                </ul>
+            </nav>
+        </div>
 
         <div class = "aboutGIS">
             <h1>What is GIS?</h1>
