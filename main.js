@@ -351,4 +351,3 @@ htmlMenubutton.addEventListener('click', toggleHtmlNav);
 pyMenubutton.addEventListener('click', togglePyNav);
 cssMenubutton.addEventListener('click', toggleCssNav);
 gisMenubutton.addEventListener('click', toggleGisNav);
-

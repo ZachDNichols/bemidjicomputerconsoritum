@@ -2,6 +2,7 @@ body {
     background-color: white;
     margin: 0;
     font-family: Louis George Cafe;
+
 }
 
 @font-face {
@@ -299,8 +300,8 @@ body {
 }
 
 .open {
-    display: fixed;
-    transform: translateY(00%);
+    display: sticky;
+    transform: translateY(0%);
     transition: all ease-in-out 250ms;
 }
 
@@ -322,8 +323,8 @@ header.home{
 
 header.home::after {
     content: '';
-    display: flex;
     clear: both;
+    display: flex;
 }
 
 .homecontainer .logo {
@@ -414,13 +415,13 @@ header.cpp{
     background-color: #4e77f0;
     border-bottom: 8px solid #5000c7;
     position: sticky;
-    top: 0px
+    top: 0px;
 }
 
 header.cpp::after {
     content: '';
-    display: table;
     clear: both;
+    display: flex;
 }
 
 .cppcontainer nav ul li button {
@@ -523,7 +524,7 @@ header.css{
     background-color: #aa00ff;
     border-bottom: 8px solid #7a059e;
     position: sticky;
-    top: 0px
+    top: 0px;
 }
 
 .csscontainer .logo {
@@ -538,7 +539,7 @@ header.css{
 
 header.css::after {
     content: '';
-    display: table;
+    display: flex;
     clear: both;
 }
 
@@ -571,7 +572,7 @@ header.gis {
     background-color: #028b32;
     border-bottom: 8px solid #004e11;
     position: sticky;
-    top: 0px
+    top: 0px;
 }
 
 .giscontainer .logo {
@@ -586,7 +587,7 @@ header.gis {
 
 header.gis::after {
     content: '';
-    display: table;
+    display: flex;
     clear: both;
 }
 
@@ -649,12 +650,12 @@ header.html {
     background-color: #fa812a;
     border-bottom: 8px solid #ff1e1e;
     position: sticky;
-    top: 0px
+    top: 0px;
 }
 
 header.html::after {
     content: '';
-    display: table;
+    display: flex;
     clear: both;
 }
 
@@ -706,12 +707,13 @@ header.py {
     background-color: #3d79aa;
     border-bottom: 8px solid #ffe05d;
     position: sticky;
-    top: 0px
+    width: 100%;
+    top: 0px;
 }
 
 header.py::after {
     content: '';
-    display: table;
+    display: flex;
     clear: both;
 }
 
@@ -841,12 +843,12 @@ header.res{
     background-color: #444342;
     border-bottom: 8px solid #000000;
     position: sticky;
-    top: 0px
+    top: 0px;
 }
 
 header.res::after {
     content: '';
-    display: table;
+    display: flex;
     clear: both;
 }
 
