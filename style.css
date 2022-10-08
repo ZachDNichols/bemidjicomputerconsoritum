@@ -384,6 +384,17 @@ header.gis::after {
     padding: 3px 3px;
 }
 
+.gisTline {
+    width: 98%;
+    height: 1px;
+    margin: 0 auto;
+}
+
+.gisTline h1 {
+    background-color: #6ab468;
+    padding: 3px 3px;
+}
+
 /*Customized container for html*/
 .htmlcontainer {
     font-family: Louis George Cafe;
