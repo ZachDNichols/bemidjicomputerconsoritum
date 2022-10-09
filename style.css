@@ -385,7 +385,7 @@ header.gis::after {
 }
 
 .gisTline {
-    width: 98%;
+    width: 100%;
     height: 1px;
     margin: 0 auto;
 }
@@ -393,6 +393,19 @@ header.gis::after {
 .gisTline h1 {
     background-color: #6ab468;
     padding: 3px 3px;
+}
+
+.patchlink {
+    border: none;
+}
+.patchlink:focus {
+    border: none;
+    outline: none;
+}
+
+.mirrorA {
+    text-align: left;
+    white-space: pre-line;
 }
 
 /*Customized container for html*/
