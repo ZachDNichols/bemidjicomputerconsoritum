@@ -22,6 +22,7 @@ body {
     font-style: italic;
 }
 /*CSS stuff used site wide*/
+
 .desktop {
     z-index: 0;
     float : right;
@@ -306,7 +307,7 @@ body {
 }
 
 
-/*Home container info*/
+
 .homecontainer {
     font-family: Louis George Cafe;
     width: 95%;
@@ -391,6 +392,13 @@ header.home::after {
     font-family: Louis George Cafe;
     margin-top: 125px;
     margin-bottom: 25px;
+}
+
+.homepage_style a {
+    color: #ff5733;
+    width: 95%;
+    margin: 20px;
+    padding-bottom: 20px;
 }
 
 /*Customized container for cpp*/
