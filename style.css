@@ -636,6 +636,39 @@ header.gis::after {
     padding: 3px 3px;
 }
 
+.GISGTTS { /* This is the Installation header and margin */
+    width: 95%;
+    margin: 0 auto;
+}
+
+.GISGTTS h1 {
+    background-color: #6ab468;
+    padding: 3px 3px;
+}
+
+.patchlink { /* This controls the Microsoft framework Link */
+    border: none;
+}
+.patchlink:focus {
+    border: none;
+    outline: none;
+}
+
+.mirrorA { /* Raw Url spacing */
+    text-align: left;
+    white-space: pre-line;
+}
+
+.GisResources {
+    width: 95%;
+    padding: 3px 3px;
+}
+
+.GisResources h1 {
+    background-color: #6ab468;
+    padding: 3px 3px;
+}
+
 /*Customized container for html*/
 .htmlcontainer {
     font-family: Louis George Cafe;
