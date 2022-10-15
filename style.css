@@ -2,6 +2,7 @@ body {
     background-color: white;
     margin: 0;
     font-family: Louis George Cafe;
+
 }
 
 @font-face {
@@ -21,26 +22,292 @@ body {
     font-style: italic;
 }
 /*CSS stuff used site wide*/
-nav {
+
+.desktop {
+    z-index: 0;
     float : right;
     font-weight: bolder;
 }
 
-nav ul {
+.desktop ul {
+
     margin-bottom: 10px;
     padding: 0;
     list-style: none;
 }
 
-nav li {
+.navbar_item{
     display : inline-block;
-    margin-left: 30px;
+    margin-left: 10px;
     padding-top: 18px;
-
     position: relative;
 }
 
-/*Home container info*/
+.desktop ul li button {
+    font-family: Louis George Cafe;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+}
+
+.desktop ul li button img {
+    width: 10px;
+    height: auto;
+}
+
+/*Theme stuff*/
+.homepage_theme
+{
+    background-color: #b10032;
+    color: white;
+}
+
+.cpp_theme {
+    background-color: #4503a9;
+    color: white;
+}
+
+.gis_theme {
+    background-color: #002e0a;
+    color: white;
+}
+
+.html_theme
+{
+    background-color: #c72100;
+    color: white;
+}
+
+.res_theme
+{
+    background-color: #444342;
+    color: white;
+}
+
+.py_theme
+{
+    background-color: #3d79aa;
+    color: white;
+}
+
+.css_theme
+{
+    background-color: #9f7ff7;
+    color: white;
+}
+
+/*Home dropdown*/
+
+.home_dropdown_menu {
+    width: 100%;
+    position: fixed;
+    padding: 30px 40px;
+    display: fixed;
+    background-color: inherit;
+    z-index: 1;
+    transform: translateY(-200%);
+    transition: all ease-in-out 250ms;
+    color: inherit;
+}
+
+.home_dropdown_menu ul
+{
+    list-style: none;
+}
+
+.home_dropdown_menu ul li{
+    padding: 2px;
+    font-weight: lighter;
+    display : inline-block;
+}
+
+.home_dropdown_menu ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*reousrces dropdown*/
+.resources_dropdown_menu {
+    width: 100%;
+    position: fixed;
+    padding: 30px 40px;
+    display: fixed;
+    background-color: inherit;
+    z-index: 1;
+    transform: translateY(-200%);
+    transition: all ease-in-out 250ms;
+    color: inherit;
+}
+
+.resources_dropdown_menu ul
+{
+    list-style: none;
+}
+
+.resources_dropdown_menu ul li{
+    padding: 2px;
+    font-weight: lighter;
+    display : inline-block;
+}
+
+.resources_dropdown_menu ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*C++ dropdown*/
+.cpp_dropdown_menu {
+    width: 100%;
+    position: fixed;
+    padding: 30px 40px;
+    display: fixed;
+    background-color: inherit;
+    z-index: 1;
+    transform: translateY(-200%);
+    transition: all ease-in-out 250ms;
+    color: inherit;
+}
+
+.cpp_dropdown_menu ul
+{
+    list-style: none;
+}
+
+.cpp_dropdown_menu ul li{
+    padding: 2px;
+    font-weight: lighter;
+    display : inline-block;
+}
+
+.cpp_dropdown_menu ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*HTML dropdown*/
+.html_dropdown_menu {
+    width: 100%;
+    position: fixed;
+    padding: 30px 40px;
+    display: fixed;
+    background-color: inherit;
+    z-index: 1;
+    transform: translateY(-200%);
+    transition: all ease-in-out 250ms;
+    color: inherit;
+}
+
+.html_dropdown_menu ul
+{
+    list-style: none;
+}
+
+.html_dropdown_menu ul li{
+    padding: 2px;
+    font-weight: lighter;
+    display : inline-block;
+}
+
+.html_dropdown_menu ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*Python dropdown*/
+.py_dropdown_menu {
+    width: 100%;
+    position: fixed;
+    padding: 30px 40px;
+    display: fixed;
+    background-color: inherit;
+    z-index: 1;
+    transform: translateY(-200%);
+    transition: all ease-in-out 250ms;
+    color: inherit;
+}
+
+.py_dropdown_menu ul
+{
+    list-style: none;
+}
+
+.py_dropdown_menu ul li{
+    padding: 2px;
+    font-weight: lighter;
+    display : inline-block;
+}
+
+.py_dropdown_menu ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*CSS dropdown*/
+.css_dropdown_menu {
+    width: 100%;
+    position: fixed;
+    padding: 30px 40px;
+    display: fixed;
+    background-color: inherit;
+    z-index: 1;
+    transform: translateY(-200%);
+    transition: all ease-in-out 250ms;
+    color: inherit;
+}
+
+.css_dropdown_menu ul
+{
+    list-style: none;
+}
+
+.css_dropdown_menu ul li{
+    padding: 2px;
+    font-weight: lighter;
+    display : inline-block;
+}
+
+.css_dropdown_menu ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*GIS dropdown*/
+.gis_dropdown_menu {
+    width: 100%;
+    position: fixed;
+    padding: 30px 40px;
+    display: fixed;
+    background-color: inherit;
+    z-index: 1;
+    transform: translateY(-200%);
+    transition: all ease-in-out 250ms;
+    color: inherit;
+}
+
+.gis_dropdown_menu ul
+{
+    list-style: none;
+}
+
+.gis_dropdown_menu ul li{
+    padding: 2px;
+    font-weight: lighter;
+    display : inline-block;
+}
+
+.gis_dropdown_menu ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.open {
+    display: sticky;
+    transform: translateY(0%);
+    transition: all ease-in-out 250ms;
+}
+
+
+
 .homecontainer {
     font-family: Louis George Cafe;
     width: 95%;
@@ -48,16 +315,17 @@ nav li {
 }
 
 header.home{
+    z-index: 2;
     background-color: #ffa800;
     border-bottom: 8px solid #c70039;
     position: sticky;
-    top: 0px
+    top: 0px;
 }
 
 header.home::after {
     content: '';
-    display: table;
     clear: both;
+    display: flex;
 }
 
 .homecontainer .logo {
@@ -65,13 +333,13 @@ header.home::after {
     font-style: italic;
 }
 
-.homecontainer nav ul li a {
+.homecontainer .desktop ul li button{
     color: #000;
     text-decoration: none;
     font-size: large;
 }
 
-.homecontainer nav a::after {
+.homecontainer .desktop button::after {
     content: '';
     display: block;
     height: 3px;
@@ -82,12 +350,8 @@ header.home::after {
     transition: all ease-in-out 250ms;
 }
 
-.homecontainer nav a:hover::after {
+.homecontainer .desktop button:hover::after {
     width: 100%;
-}
-
-.homecontainer nav a:hover {
-    background-color: #ea9d04;
 }
 
 .about{
@@ -125,14 +389,21 @@ header.home::after {
 }
 
 .bios h2 {
-    font-family: Louis George Cafe Bold;
+    font-family: Louis George Cafe;
     margin-top: 125px;
     margin-bottom: 25px;
 }
 
+.homepage_style a {
+    color: #ff5733;
+    width: 95%;
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
 /*Customized container for cpp*/
 .cppcontainer {
-    font-family: Louis George Cafe;
+    font-family: Louis George Cafe B;
     width: 95%;
     margin : 0 auto;
 }
@@ -143,30 +414,31 @@ header.home::after {
     color: rgb(255, 255, 255);
 }
 
-.cppcontainer nav a:hover::after {
+.cppcontainer nav button:hover::after {
     width: 100%;
 }
 
 header.cpp{
+    z-index: 2;
     background-color: #4e77f0;
     border-bottom: 8px solid #5000c7;
     position: sticky;
-    top: 0px
+    top: 0px;
 }
 
 header.cpp::after {
     content: '';
-    display: table;
     clear: both;
+    display: flex;
 }
 
-.cppcontainer nav ul li a {
+.cppcontainer nav ul li button {
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: large;
 }
 
-.cppcontainer nav a::after {
+.cppcontainer nav button::after {
     content: '';
     display: block;
     height: 3px;
@@ -175,10 +447,6 @@ header.cpp::after {
 
     position: absolute;
     transition: all ease-in-out 250ms;
-}
-
-.cppcontainer nav a:hover {
-    background-color: #4262c1;
 }
 
 .aboutcpp {
@@ -260,10 +528,11 @@ header.cpp::after {
 }
 
 header.css{
+    z-index: 2;
     background-color: #aa00ff;
     border-bottom: 8px solid #7a059e;
     position: sticky;
-    top: 0px
+    top: 0px;
 }
 
 .csscontainer .logo {
@@ -272,23 +541,23 @@ header.css{
     color: rgb(255, 255, 255);
 }
 
-.csscontainer nav a:hover::after {
+.csscontainer nav button:hover::after {
     width: 100%;
 }
 
 header.css::after {
     content: '';
-    display: table;
+    display: flex;
     clear: both;
 }
 
-.csscontainer nav ul li a {
+.csscontainer nav ul li button {
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: large;
 }
 
-.csscontainer nav a::after {
+.csscontainer nav button::after {
     content: '';
     display: block;
     height: 3px;
@@ -297,10 +566,6 @@ header.css::after {
 
     position: absolute;
     transition: all ease-in-out 250ms;
-}
-
-.csscontainer nav a:hover {
-    background-color: #7b03b8;
 }
 
 /*Customized container for gis*/
@@ -311,10 +576,11 @@ header.css::after {
 }
 
 header.gis {
+    z-index: 2;
     background-color: #028b32;
     border-bottom: 8px solid #004e11;
     position: sticky;
-    top: 0px
+    top: 0px;
 }
 
 .giscontainer .logo {
@@ -323,23 +589,23 @@ header.gis {
     color: rgb(255, 255, 255);
 }
 
-.giscontainer nav a:hover::after {
+.giscontainer nav button:hover::after {
     width: 100%;
 }
 
 header.gis::after {
     content: '';
-    display: table;
+    display: flex;
     clear: both;
 }
 
-.giscontainer nav ul li a {
+.giscontainer nav ul li button {
     color: rgb(255, 253, 253);
     text-decoration: none;
     font-size: large;
 }
 
-.giscontainer nav a::after {
+.giscontainer nav button::after {
     content: '';
     display: block;
     height: 3px;
@@ -348,10 +614,6 @@ header.gis::after {
 
     position: absolute;
     transition: all ease-in-out 250ms;
-}
-
-.giscontainer nav a:hover {
-    background-color: #015a20;
 }
 
 .aboutGIS {
@@ -420,30 +682,31 @@ header.gis::after {
     color: rgb(0, 0, 0);
 }
 
-.htmlcontainer nav a:hover::after {
+.htmlcontainer nav button:hover::after {
     width: 100%;
 }
 
 header.html {
+    z-index: 2;
     background-color: #fa812a;
     border-bottom: 8px solid #ff1e1e;
     position: sticky;
-    top: 0px
+    top: 0px;
 }
 
 header.html::after {
     content: '';
-    display: table;
+    display: flex;
     clear: both;
 }
 
-.htmlcontainer nav ul li a {
+.htmlcontainer nav ul li button {
     color: #000;
     text-decoration: none;
     font-size: large;
 }
 
-.htmlcontainer nav a::after {
+.htmlcontainer nav button::after {
     content: '';
     display: block;
     height: 3px;
@@ -452,10 +715,6 @@ header.html::after {
 
     position: absolute;
     transition: all ease-in-out 250ms;
-}
-
-.htmlcontainer nav a:hover {
-    background-color: #f07e2c;
 }
 
 .abouthtml {
@@ -480,30 +739,32 @@ header.html::after {
     color: rgb(255, 255, 255);
 }
 
-.pycontainer nav a:hover::after {
+.pycontainer nav button:hover::after {
     width: 100%;
 }
 
 header.py {
+    z-index: 2;
     background-color: #3d79aa;
     border-bottom: 8px solid #ffe05d;
     position: sticky;
-    top: 0px
+    width: 100%;
+    top: 0px;
 }
 
 header.py::after {
     content: '';
-    display: table;
+    display: flex;
     clear: both;
 }
 
-.pycontainer nav ul li a {
+.pycontainer nav ul li button {
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: large;
 }
 
-.pycontainer nav a::after {
+.pycontainer nav button::after {
     content: '';
     display: block;
     height: 3px;
@@ -512,10 +773,6 @@ header.py::after {
 
     position: absolute;
     transition: all ease-in-out 250ms;
-}
-
-.pycontainer nav a:hover {
-    background-color: #2b5679;
 }
 
 .aboutPython {
@@ -560,8 +817,22 @@ header.py::after {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+#step2-2img {
+    width: 80%;
+    padding-left: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 #step3img {
     width: 80%;
+    padding-left: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#step3-2img {
+    width: 20%;
     padding-left: 5%;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -604,30 +875,31 @@ header.py::after {
     color: rgb(255, 255, 255);
 }
 
-.rescontainer nav a:hover::after {
+.rescontainer nav button:hover::after {
     width: 100%;
 }
 
 header.res{
+    z-index: 2;
     background-color: #444342;
     border-bottom: 8px solid #000000;
     position: sticky;
-    top: 0px
+    top: 0px;
 }
 
 header.res::after {
     content: '';
-    display: table;
+    display: flex;
     clear: both;
 }
 
-.rescontainer nav ul li a {
+.rescontainer nav ul li button {
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: large;
 }
 
-.rescontainer nav a::after {
+.rescontainer nav button::after {
     content: '';
     display: block;
     height: 3px;
@@ -636,10 +908,6 @@ header.res::after {
 
     position: absolute;
     transition: all ease-in-out 250ms;
-}
-
-.rescontainer nav a:hover {
-    background-color: #2e2e2e;
 }
 
 .github {

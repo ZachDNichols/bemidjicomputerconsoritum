@@ -4,27 +4,36 @@
         <title>C++ - Bemidji Computer Consortium</title>
         <link rel="stylesheet" href="style.css">
         <link rel="icon" type="image/x-icon" href="favicons/CPP.png">
-
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     </head>
 
-    <body>
-        <header class = "cpp">
-            <div class = "cppcontainer">
-                <h1 class = "logo">Bemidji Computer Consortium</h1>
-                <nav>
-                    <ul>
-                        <li><a href="home.html">Home</a></li>
-                        <li><a href="resources.html">Resources</a></li>
-                        <li><a href="cpp.html">C++</a></li>
-                        <li><a href="html.html">HTML</a></li>
-                        <li><a href="python.html">Python</a></li>
-                        <li><a href="css.html">CSS</a></li>
-                        <li><a href="gis.html">GIS</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+    <header class = "cpp">
+        <div class = "cppcontainer">
+            <h1 class = "logo">Bemidji Computer Consortium</h1>
+            <nav class = "desktop">
+                <ul>
+                    <li class = "navbar_item">
+                    <button class = "home_button">Home<img src = "ui_images/Dropdown_white.png"></button> </li>
+                    <li class = "navbar_item"><button class = "resources_button">Resources <img src = "ui_images/Dropdown_white.png"></button></li>
+                    <li class = "navbar_item"><button class = "cpp_button">C++<img src = "ui_images/Dropdown_white.png"></button></li>
+                    <li class = "navbar_item"><button class = "html_button">HTML<img src = "ui_images/Dropdown_white.png"></button></li>
+                    <li class = "navbar_item"><button class = "python_button">Python<img src = "ui_images/Dropdown_white.png"></button></li>
+                    <li class = "navbar_item"><button class = "css_button">CSS<img src = "ui_images/Dropdown_white.png"></button></li>
+                    <li class = "navbar_item"><button class = "gis_button">GIS<img src = "ui_images/Dropdown_white.png"></button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
+    <div class = "cpp_theme" id="Nav">
+        <script>
+            $(function(){
+              $("#Nav").load("/navBars/Nav.html");
+            });
+            </script>
+    </div>
+
+    <body>
         <div class = "aboutcpp">
             <h1>What <i>is</i> C++?</h1>
             <p>C++ is a general-purpose programming language created by Danish 
@@ -116,14 +125,14 @@
             <p>We will then create a new file. We will name it "main.cpp". In the file, we will type a simple hello world program.
                 This is to test the compiler, and make sure our program works. In the C++ file, we will want to type the follow code:
 <pre class = "cpppre">
-    #include &lt;iostream&gt;
-    
-    int main()
-    {
-        std::cout &lt;&lt; "Hello World";
-    
-        return 0;
-    }</pre>
+#include &lt;iostream&gt;
+
+int main()
+{
+    std::cout &lt;&lt; "Hello World";
+
+    return 0;
+}</pre>
             </p>
             <img src = "winCPPcompiler/15.png" alt = "Select the G++ compiler to configure" title = "Select the G++ compiler to configure">
             <p>After that, we will want to click the terminal button at the top of the window. In that menu, we will want to click the

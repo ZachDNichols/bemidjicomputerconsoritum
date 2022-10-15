@@ -4,25 +4,35 @@
         <title>Python - Bemidji Computer Consortium</title>
         <link rel="stylesheet" href="style.css">
         <link rel="icon" type="image/x-icon" href="favicons/Python.png">
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     </head>
 
     <body>
-        <header class = "py">
-            <div class = "pycontainer">
-                <h1 class = "logo">Bemidji Computer Consortium</h1>
-                <nav>
-                    <ul>
-                        <li><a href="home.html">Home</a></li>
-                        <li><a href="resources.html">Resources</a></li>
-                        <li><a href="cpp.html">C++</a></li>
-                        <li><a href="html.html">HTML</a></li>
-                        <li><a href="python.html">Python</a></li>
-                        <li><a href="css.html">CSS</a></li>
-                        <li><a href="gis.html">GIS</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+    <header class = "py">
+        <div class = "pycontainer">
+            <h1 class = "logo">Bemidji Computer Consortium</h1>
+            <nav class = "desktop">
+                <ul>
+                    <li class = "navbar_item">
+                    <button class = "home_button">Home<img src = "ui_images/Dropdown_white.png"></button> </li>
+                    <li class = "navbar_item"><button class = "resources_button">Resources <img src = "ui_images/Dropdown_white.png"></button></li>
+                    <li class = "navbar_item"><button class = "cpp_button">C++<img src = "ui_images/Dropdown_white.png"></button></li>
+                    <li class = "navbar_item"><button class = "html_button">HTML<img src = "ui_images/Dropdown_white.png"></button></li>
+                    <li class = "navbar_item"><button class = "python_button">Python<img src = "ui_images/Dropdown_white.png"></button></li>
+                    <li class = "navbar_item"><button class = "css_button">CSS<img src = "ui_images/Dropdown_white.png"></button></li>
+                    <li class = "navbar_item"><button class = "gis_button">GIS<img src = "ui_images/Dropdown_white.png"></button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class = "py_theme" id="Nav">
+        <script>
+            $(function(){
+              $("#Nav").load("/navBars/Nav.html");
+            });
+            </script>
+    </div>
+
         <div class = "aboutPython">
             <h1>What <i>is</i> Python?</h1>
             <p>Python is a high level general-purpose programming language created by Guido can Rossum.
@@ -92,12 +102,61 @@
                 This is the extensions menu. Here you can download many different extensiosn that
                 will help you build faster and cleaner looking code. Search <i>python</i> in
                 the text bar and install the first one by Microsoft. <br>
-                <img src="python_usage_images/step2-1.png" alt="" id="step3img"><br>
+                <img src="python_usage_images/step2-1.png" alt="" id="step2-2img"><br>
                 After you have the extension you are all set up and ready to start coding!
         
             </p>
             <h3><b>Step 3</b> - Making a Basic Program</h3>
-            <p></p>
+            <p>Here we are going to make a couple of basic programs so you can get an idea of how python works
+                <br>First, click the file dropdown at the top left of the page and click new text file.
+            </p>
+            <img src="python_usage_images/step3.png" alt="" id="step3img">
+            <p>We will then click the link that says,"Select a language". This will
+                open up a dialogue box that allows you select whatever programming 
+                language you want. We will type "python" and hit enter.
+                Then do control ctrl+s to save it. Give the file what ever name you like.
+                You'll notice that the file ends in .py. That means its a python file. <br><br>
+                Now we can start coding! To start lets make a program that prints a simple "Hello, World"
+                <blockquote>
+                    print("Hello, World!")
+                </blockquote>
+                The code above will print the message "Hello, World!" to the terminal. <br>
+                <br> <img src="python_usage_images/step3-2.png" alt="" id="step3-2img"><br><br>
+                Note - If your code doesn't print its possible you don't have the terminal open
+                to open. It open it go to the top nav bar and click View and then make sure terminal is checked.
+                <br> <br>Lets quickly look into the print function and talk about how it works.
+                When the print function is called it looks at the content inside the 
+                parentheses and makes sure its a string. A string is defined when text
+                is inside quotation marks. It then takes this input and displays it
+                on the terminal page.
+            </p>
+            <h4><b>Step 4</b> - Basic Logic</h4>
+            <p>
+                Python also has basic logic that allows you to add,
+                subtract, multiply, and divide. Below are some examples
+                of how to perform these operations.
+                <blockquote>
+                    print(2+2)   #4 <br>
+                    print(2-1)   #1  <br>
+                    print(4*3)   #12 <br>
+                    print(10/5)  #2 <br>
+                </blockquote>
+                You can ignore the # as its used to comment in python. It
+                is just being used to show you the expected output.
+            <br><br>
+            You can also create varibles by using the syntax: varibleName = value. 
+            Below is an example of it in python.
+            <blockquote>
+                age = 4    <br>
+                print(age)
+            </blockquote>
+            This allows you to save data in varibles that can be used later in your
+            program.
+            <br><br>
+            That is the end of this tutorial. For further learning I would 
+            recommend <a href="https://www.python.org/doc/">python.org</a>
+            </p>
+            <br><br>
         </div>
 
 
