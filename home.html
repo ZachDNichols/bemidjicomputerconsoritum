@@ -1,32 +1,44 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Bemidji Computer Consortium - Home</title>
+        <title>Home - Bemidji Computer Consortium</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="favicons/Home.png">
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     </head>
 
-    <body>
-        <header>
-            <div class = "container">
-                <h1 class = "logo">Bemidji Computer Consortium</h1>
-                <nav>
-                    <ul>
-                        <li><a href="home.html">Home</a></li>
-                        <li><a href="cpp.html">C++</a></li>
-                        <li><a href="html.html">HTML</a></li>
-                        <li><a href="python.html">Python</a></li>
-                        <li><a href="css.html">CSS</a></li>
-                        <li><a href="gis.html">GIS</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+    <header class = "home">
+        <div class = "homecontainer">
+            <h1 class = "logo">Bemidji Computer Consortium</h1>
+            <nav class = "desktop">
+                <ul>
+                    <li class = "navbar_item">
+                    <button class = "home_button">Home<img src = "ui_images/Dropdown_black.png"></button> </li>
+                    <li class = "navbar_item"><button class = "resources_button">Resources <img src = "ui_images/Dropdown_black.png"></button></li>
+                    <li class = "navbar_item"><button class = "cpp_button">C++<img src = "ui_images/Dropdown_black.png"></button></li>
+                    <li class = "navbar_item"><button class = "html_button">HTML<img src = "ui_images/Dropdown_black.png"></button></li>
+                    <li class = "navbar_item"><button class = "python_button">Python<img src = "ui_images/Dropdown_black.png"></button></li>
+                    <li class = "navbar_item"><button class = "css_button">CSS<img src = "ui_images/Dropdown_black.png"></button></li>
+                    <li class = "navbar_item"><button class = "gis_button">GIS<img src = "ui_images/Dropdown_black.png"></button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class = homepage_theme id="Nav"></div>
+        <script>
+            $(function(){
+            $("#Nav").load("/navBars/Nav.html");
+            });
+        </script>
+    </div>
 
+
+    <body id = "top">
         <div class = "about">
             <h1>About Us</h1>
         </div>
         <div class = "bios">
-            <img src = "zach.jpg">
+            <img src = "zach.jpg" alt = "Zach Nichols" title = "Zach Nichols">
             <h2>Zach Nichols</h2> 
             <p>
                 Name: Zach Nichols <br />
@@ -37,7 +49,7 @@
                 After he finishes his degree he is still undecided, but he likes full stack development and web development. <br/>
             </p>
             <h2>Joshua S</h2> 
-            <img src = "josh.png">
+            <img src = "josh.png" alt = "Joshua S" title = "Joshua S">
             <p>
                 Name: Joshua S
                 Student, Senior <br />
@@ -51,7 +63,7 @@
                 applied science degree. While taking classes he discovered a passion for Geospatial stats and transferred to Bemidji to
                 finish a bachelors of science in GIS. <br/>
             </p>
-            <h2>Ian Jungels</h2> <img src = "TEMP IMAGE.png">
+            <h2>Ian Jungels</h2> <img src = "TEMP IMAGE.png" title = "Ian Jungels">
             <p>
                 Name: Ian Jungels <br/>
                 Student, Senior <br/>
@@ -60,7 +72,7 @@
                 Bio: Ian graduated high school in 2019 and came to Bemidji State as a member of the Beavers baseball team.  
                 That was short lived however as it wasn't what he was hoping for. He interned at Lewis and Clarke State the summer of 2022 and is currently sending out applications. <br/>
             </p>
-            <h2>Ethan Henrickson</h2> <img src = "TEMP IMAGE.png">
+            <h2>Ethan Henrickson</h2> <img src = "TEMP IMAGE.png" title = "Ethan Henrickson">
             <p>
                 Name: Ethan Henrickson <br/>
                 Student, Sophmore <br/>
@@ -69,7 +81,7 @@
                 Bio: Ethan  graduated high school in 2021 and went to Bemidji State University because it was close to home.  
                 After school he plans on going to a grad school to achieve a masters in CS and get a job as a full-stack developer. <br/>
             </p> 
-            <h2>Jessilyn Spears</h2> <img src = "TEMP IMAGE.png">
+            <h2>Jessilyn Spears</h2> <img src = "Jessilyn.jpg" alt = "Jessilyn Spears" title = "Jessilyn Spears">
             <p>
                 Name: Jessilyn Spears <br/>
                 Student: Junior <br/>
@@ -79,8 +91,9 @@
                 She took a year off and decided to go to BSU since it was close to home. 
                 She was first majoring in Computer Science but now changed her major to Mass Comm in Spring 2022.<br/>
             </p>
-            <h2>Name: Tyler Busta</h2> <img src = "TEMP IMAGE.png"> <br>
-            <p> Class: Senior <br>
+            <h2>Tyler Busta</h2> <img src = "TEMP IMAGE.png" title = "Tyler Busta"> <br>
+            <p>
+                Class: Senior <br>
                 Major: Computer Science <br>
                 Hometown: Anoka, Minnesota <br>
                 Bio: Tyler graduated high school in 2019, where he then attended <br>
@@ -88,6 +101,10 @@
                 before transferring to BSU in the fall of 2021. After his degree he will persure <br>
                 software development or web development.
              </p>
+        </div>
+
+        <div class = "homepage_style">
+            <a href = "home.html#top" class = "homepage_style">^ Back to top ^</a>
         </div>
 
     </body>

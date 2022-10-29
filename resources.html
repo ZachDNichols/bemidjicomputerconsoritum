@@ -1,30 +1,80 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Bemidji Computer Consortium - Home</title>
+        <title>Resources - Bemidji Computer Consortium</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="favicons/Resources.png">
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     </head>
 
+    <header class = "res">
+        <div class = "rescontainer">
+            <h1 class = "logo">Bemidji Computer Consortium</h1>
+            <nav class = "desktop">
+                <ul>
+                    <li class = "navbar_item">
+                    <button class = "home_button">Home<img src = "ui_images/Dropdown_white.png"></button> </li>
+                    <li class = "navbar_item"><button class = "resources_button">Resources <img src = "ui_images/Dropdown_white.png"></button></li>
+                    <li class = "navbar_item"><button class = "cpp_button">C++<img src = "ui_images/Dropdown_white.png"></button></li>
+                    <li class = "navbar_item"><button class = "html_button">HTML<img src = "ui_images/Dropdown_white.png"></button></li>
+                    <li class = "navbar_item"><button class = "python_button">Python<img src = "ui_images/Dropdown_white.png"></button></li>
+                    <li class = "navbar_item"><button class = "css_button">CSS<img src = "ui_images/Dropdown_white.png"></button></li>
+                    <li class = "navbar_item"><button class = "gis_button">GIS<img src = "ui_images/Dropdown_white.png"></button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class = "res_theme" id="Nav">
+        <script>
+            $(function(){
+              $("#Nav").load("/navBars/Nav.html");
+            });
+            </script>
+    </div>
+
     <body>
-        <header>
-            <div class = "container">
-                <h1 class = "logo">Bemidji Computer Consortium</h1>
-                <nav>
-                    <ul>
-                        <li><a href="home.html">Home</a></li>
-                        <li><a href="resources.html">Resources</a></li>
-                        <li><a href="cpp.html">C++</a></li>
-                        <li><a href="html.html">HTML</a></li>
-                        <li><a href="python.html">Python</a></li>
-                        <li><a href="css.html">CSS</a></li>
-                        <li><a href="gis.html">GIS</a></li>
-
-                    </ul>
-                </nav>
-            </div>
-        </header>
-
-        
-
+        <div class = "github">
+            <h2 class = "branches">Branches/Pull Requests</h2>
+            <p>This guide will show you how to do branches and pull requests using the <a href = "https://desktop.github.com/">GitHub Desktop App</a>.
+            Branches are an important part of using Git and GitHub. Branches allow you to modify copies of the code without modifying the main branch, so if something goes wrong in a branch, the main branch is not affected.
+            Performing a pull request is the process for merging a branch with a different branch. In order to do a pull request, the branches have to be different. Below we will show how to check out a branch, and perform a pull request using GitHub and the desktop app mentioned earlier.
+            In this tutorial, we perform the operations on a Mac, but the operation is the same on Windows as well.</p>
+            <h3>Creating a Branch and Pushing</h3>
+            <img src = "GitHubCreateBranch/1.png">
+            <p>Select the drop-down menu for current branches in the GitHub desktop app.</p>
+            <img src = "GitHubCreateBranch/2.png">
+            <p>Select new branch.</p>
+            <img src = "GitHubCreateBranch/3.png">
+            <p>Here, you type out a name for the branch you are about to create (3). When you are done, click "Create Branch" (4).</p>
+            <img src = "GitHubCreateBranch/5.png">
+            <p>To get your newly created branch to appear on the remote GitHub repository, you need to click the "Publish Branch" button (5). </p>
+            <img src = "GitHubCreateBranch/4.png">
+            <p>Just like the main Git or GitHub branch, you can still commit to it. In this tutorial, we create a html page called "resources.html".
+                You can add a title/summary for your comitted changes (6), add a longer description for the committed changes (7), and then click "Commit" to save your changes.
+            </p>
+            <img src = "GitHubCreateBranch/6.png">
+            <p>
+                Once the commit is complete, you will want to click "Push Origin" (9). This will push the committed changes to the remote server, so anyone will be able to retrieve this changes.
+                It is important you push to your branch before doing a pull request.
+            </p>
+            <h3>Creating a Pull Request</h3>
+            <p>Once you have your changes committed and pushed to a new branch, to get it to the main branch, we need to do something called a "pull request".
+                This will allow the two branches to be merged together. This will show you below how to complete a pull request.
+            </p>
+            <img src = "GitHubCreateBranch/7.png">
+            <p>Click the pull request button (10). This will open GitHub.com in your default browser.</p>
+            <img src = "GitHubCreateBranch/8.png">
+            <p>When creating a pull request, you can add a title as well as a description to explain what you are merging. When finished, click "Create pull request" (11).</p>
+            <img src = "GitHubCreateBranch/9.png">
+            <p>After clicking that page, you may have to scroll down a bit, but look for the green "Merge pull request" button (12).
+            </p>
+            <img src = "GitHubCreateBranch/10.png">
+            <p>Click the "Confirm merge" button to finalize your changes.</p>
+            <img src = "GitHubCreateBranch/11.png">
+            <p>After you do that, you will have created your first pull request on GitHub. 
+                You can delete the branch (14) after you are finished if you have no further changes to make to this specific branch.
+                Congratulations and happy coding!</p>
+        </div>
     </body>
 </html>
