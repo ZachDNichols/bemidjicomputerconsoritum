@@ -401,6 +401,48 @@ header.home::after {
     padding-bottom: 20px;
 }
 
+.resources_style{
+    color: #444342;
+    width: 95%;
+    margin: 80px auto;
+    padding-bottom: 20px;
+}
+
+.cpp_style{
+    color: #4e77f0;
+    width: 95%;
+    margin: 80px auto;
+    padding-bottom: 20px;
+}
+
+.html_style{
+    color: #fa812a;
+    width: 95%;
+    margin: 80px auto;
+    padding-bottom: 20px;
+}
+
+.python_style{
+    color: #3d79aa;
+    width: 95%;
+    margin: 80px auto;
+    padding-bottom: 20px;
+}
+
+.css_style{
+    color: #aa00ff;
+    width: 95%;
+    margin: 80px auto;
+    padding-bottom: 20px;
+}
+
+.gis_style{
+    color: #028b32;
+    width: 95%;
+    margin: 80px auto;
+    padding-bottom: 20px;
+}
+
 /*Customized container for cpp*/
 .cppcontainer {
     font-family: Louis George Cafe B;
