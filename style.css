@@ -401,6 +401,16 @@ header.home::after {
     padding-bottom: 20px;
 }
 
+.homepage_style h1 {
+    background-color: #ff5733;
+    color:rgb(0, 0, 0);
+}
+
+.homepage_style p {
+    color: black;
+    margin: 0;
+}
+
 .resources_style{
     color: #444342;
     width: 95%;
@@ -766,6 +776,23 @@ header.html::after {
 
 .abouthtml h1 {
     background-color: #f07e2c;
+}
+
+.setuphtml {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.setuphtml img {
+    width: 70%;
+}
+
+.setuphtml h1 {
+    background-color: #fa812a;
+}
+
+.setuphtml h2 {
+    background-color: #fda465;
 }
 
 /*Customized container for python*/
