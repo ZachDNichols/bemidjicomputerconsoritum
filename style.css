@@ -470,6 +470,21 @@ header.home::after {
     width: 100%;
 }
 
+.cpp h1{
+    width: 95%;
+    margin: 0 auto;
+    background-color: #7544fd;
+    color: white;
+    padding: 3px 3px;
+}
+
+.cpp p {
+    width: 95%;
+    margin: 0 auto;
+    color: black;
+    margin-top: 20px;
+}
+
 header.cpp{
     z-index: 2;
     background-color: #4e77f0;
