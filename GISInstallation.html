@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GIS - Bemidji Computer Consortium</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="favicons/GIS.png">
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    </head>
+
+    <body>
+        <header class = gis>
+            <div class = "giscontainer">
+                <h1 class = "logo">Bemidji Computer Consortium</h1>
+                <nav class = "desktop">
+                    <ul>
+                        <li class = "navbar_item">
+                        <button class = "home_button">Home<img src = "ui_images/Dropdown_white.png"></button> </li>
+                        <li class = "navbar_item"><button class = "resources_button">Resources <img src = "ui_images/Dropdown_white.png"></button></li>
+                        <li class = "navbar_item"><button class = "cpp_button">C++<img src = "ui_images/Dropdown_white.png"></button></li>
+                        <li class = "navbar_item"><button class = "html_button">HTML<img src = "ui_images/Dropdown_white.png"></button></li>
+                        <li class = "navbar_item"><button class = "python_button">Python<img src = "ui_images/Dropdown_white.png"></button></li>
+                        <li class = "navbar_item"><button class = "css_button">CSS<img src = "ui_images/Dropdown_white.png"></button></li>
+                        <li class = "navbar_item"><button class = "gis_button">GIS<img src = "ui_images/Dropdown_white.png"></button></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class = "gis_theme" id="Nav">
+            <script>
+                $(function(){
+                  $("#Nav").load("/navBars/Nav.html");
+                });
+                </script>
+        </div>
+        <div class = "GISGTTS">
+            <h1> 
+                Installating - ArcGIS Pro
+            </h1>
+            <p>
+                You will need some type of commercial software to work with Geo databases (.GDBs) There are free resources linked at the bottom of this page however,
+                 for
+                our purposes this tutorial will cover Esri's ArcGIS Pro (The leading technology any private organization you work for would mostlikely use.)
+            </p>
+            <p>
+                Before installing any Esri products you <b>Must</b> have the required microsft framework (The Patches required to run Esri products are not currently available for Mac)
+                <i>Direct Link Here:</i>
+                <form action="https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.6-windows-x64-installer">
+                    <button class="patchlink">  <img src="GIS_usage_images/dotnetinstaller.png"/>
+                    </button>
+                  </form>
+                  <style>
+                  </style>
+                  <pre class="mirrorA">
+                    (Raw_URL)https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.6-windows-x64-installer
+                  </pre>
+            </p>
+    
+            <p>
+                Because ArcGIS Pro is an industry standard most businesses and universities (Not including the Forest/Park Serivce, and affiliated technical colleges)
+                will provide you with credentials and a license.
+                <a href = https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview> Esri's ArcGIS Pro. 
+                </a>
+                Once authorized you will have access to download ArcGIS Pro from:&nbsp;
+                <a href = "https://www.arcgis.com/home/organization.html">This Link
+                </a>
+            </p>
+        <div class = "gisTline">
+                <h1>
+                    
+                </h1>
+                <p>
+                    After patching your machine with the link above and Logging in to your ArcGis Account, go to the provided (<a href = "https://www.arcgis.com/home/organization.html">Link
+                    </a> )
+                    and open the<b><u> Organization </u></b> tab of the website.
+                </p>
+                <div class="GISIcon">
+                    <img src = "GIS_usage_images/ArcGISDownload.png">
+                </div>
+                <h1>
+                </h1>
+                <p>
+                    You should see icons for the Esri Software you (or your organization) has purchased.
+                    <br>
+                    <br>
+                    <img src = "GIS_usage_images/GISDownloadPane01.png">
+                <br>
+                    <u><b>If you do not have access to any software you will see this icon.</b></u>
+                <br>
+                    <img src = "GIS_usage_images/GISDownloadPane03.png">
+        </div>
+        </div>
+    </body>
+</html>

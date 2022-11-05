@@ -736,6 +736,13 @@ header.gis::after {
     padding: 3px 3px;
 }
 
+/* GIS Instillation*/
+
+.GISIcon {
+    max-width: 44%;
+    max-height: 44%;
+}
+
 /*Customized container for html*/
 .htmlcontainer {
     font-family: Louis George Cafe;
