@@ -401,6 +401,16 @@ header.home::after {
     padding-bottom: 20px;
 }
 
+.homepage_style h1 {
+    background-color: #ff5733;
+    color:rgb(0, 0, 0);
+}
+
+.homepage_style p {
+    color: black;
+    margin: 0;
+}
+
 .resources_style{
     color: #444342;
     width: 95%;
@@ -458,6 +468,21 @@ header.home::after {
 
 .cppcontainer nav button:hover::after {
     width: 100%;
+}
+
+.cpp h1{
+    width: 95%;
+    margin: 0 auto;
+    background-color: #7544fd;
+    color: white;
+    padding: 3px 3px;
+}
+
+.cpp p {
+    width: 95%;
+    margin: 0 auto;
+    color: black;
+    margin-top: 20px;
 }
 
 header.cpp{
@@ -711,6 +736,13 @@ header.gis::after {
     padding: 3px 3px;
 }
 
+/* GIS Instillation*/
+
+.GISIcon {
+    max-width: 44%;
+    max-height: 44%;
+}
+
 /*Customized container for html*/
 .htmlcontainer {
     font-family: Louis George Cafe;
@@ -766,6 +798,23 @@ header.html::after {
 
 .abouthtml h1 {
     background-color: #f07e2c;
+}
+
+.setuphtml {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.setuphtml img {
+    width: 70%;
+}
+
+.setuphtml h1 {
+    background-color: #fa812a;
+}
+
+.setuphtml h2 {
+    background-color: #fda465;
 }
 
 /*Customized container for python*/
@@ -900,6 +949,30 @@ header.py::after {
     font-family: "Louis George Cafe B";
 }
 .pythontutorial blockquote {
+    background-color: rgb(210, 210, 210);
+    
+}
+
+.pythonUsed {
+    width: 95%;
+    margin: 0 auto;
+    
+}
+
+.pythonUsed h1 {
+    background-color: #3d79aa;
+    color:rgb(255, 255, 255);
+    padding: 3px 3px
+}
+
+.pythonUsed h2 {
+    background-color: #558cb8;
+    color:rgb(255, 255, 255);
+}
+.pythonUsed img {
+    width: 50%;
+}
+.pythonUsed blockquote {
     background-color: rgb(210, 210, 210);
     
 }
