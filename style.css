@@ -953,6 +953,30 @@ header.py::after {
     
 }
 
+.pythonUsed {
+    width: 95%;
+    margin: 0 auto;
+    
+}
+
+.pythonUsed h1 {
+    background-color: #3d79aa;
+    color:rgb(255, 255, 255);
+    padding: 3px 3px
+}
+
+.pythonUsed h2 {
+    background-color: #558cb8;
+    color:rgb(255, 255, 255);
+}
+.pythonUsed img {
+    width: 50%;
+}
+.pythonUsed blockquote {
+    background-color: rgb(210, 210, 210);
+    
+}
+
 /*Customized container for resources*/
 .rescontainer {
     font-family: Louis George Cafe;
