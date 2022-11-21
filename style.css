@@ -354,6 +354,18 @@ header.home::after {
     width: 100%;
 }
 
+.userinput
+{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.userinput h2 {
+    position: static;
+    padding-left : 5px;
+    background-color: #ff5733;
+}
+
 .about{
     width : 95%;
     margin: 0 auto;
@@ -425,6 +437,31 @@ header.home::after {
     padding-bottom: 20px;
 }
 
+.cpp_style pre {
+    width: 95%;
+    margin: 0 auto;
+    display: inline-block; 
+    color: white;
+    background-color: darkslategrey;
+    border:5px solid #7544fd;
+    align-content: center;
+}
+
+.cpp_style h1 {
+    background-color: #7544fd;
+    padding: 3px 3px;
+    color: #ffffff;
+}
+
+.cpp_style {
+    color:black;
+}
+
+.cpp_style img {
+    width: 50%;
+    border:5px solid #7544fd;
+}
+
 .html_style{
     color: #fa812a;
     width: 95%;
@@ -468,14 +505,6 @@ header.home::after {
 
 .cppcontainer nav button:hover::after {
     width: 100%;
-}
-
-.cpp h1{
-    width: 95%;
-    margin: 0 auto;
-    background-color: #7544fd;
-    color: white;
-    padding: 3px 3px;
 }
 
 .cpp p {
