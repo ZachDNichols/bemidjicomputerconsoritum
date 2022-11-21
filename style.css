@@ -956,7 +956,6 @@ header.py::after {
 .pythonUsed {
     width: 95%;
     margin: 0 auto;
-    
 }
 
 .pythonUsed h1 {
@@ -975,6 +974,28 @@ header.py::after {
 .pythonUsed blockquote {
     background-color: rgb(210, 210, 210);
     
+}
+
+.pythonProject {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.pythonProject h1 {
+    background-color: #3d79aa;
+    color:rgb(255, 255, 255);
+    padding: 3px 3px
+}
+
+.pythonProject img {
+    width: 70%;
+    padding-left: ;
+}
+
+.pythonProject h2 {
+    background-color: #558cb8;
+    color:rgb(255, 255, 255);
+    padding-left: 1%;
 }
 
 /*Customized container for resources*/
