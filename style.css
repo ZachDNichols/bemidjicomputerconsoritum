@@ -838,6 +838,10 @@ header.html::after {
     width: 70%;
 }
 
+.setuphtml a img {
+    width: 100px;
+    float: right;
+}
 .setuphtml h1 {
     background-color: #fa812a;
 }
