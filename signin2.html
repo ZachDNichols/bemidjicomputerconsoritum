@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign In - Bemidji Computer Consortium</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="favicons/Home.png">
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    </head>
+
+    <header class = "home">
+        <div class = "homecontainer">
+            <h1 class = "logo">Bemidji Computer Consortium</h1>
+            <nav class = "desktop">
+                <ul>
+                    <li class = "navbar_item">
+                    <button class = "home_button">Home<img src = "ui_images/Dropdown_black.png"></button> </li>
+                    <li class = "navbar_item"><button class = "resources_button">Resources <img src = "ui_images/Dropdown_black.png"></button></li>
+                    <li class = "navbar_item"><button class = "cpp_button">C++<img src = "ui_images/Dropdown_black.png"></button></li>
+                    <li class = "navbar_item"><button class = "html_button">HTML<img src = "ui_images/Dropdown_black.png"></button></li>
+                    <li class = "navbar_item"><button class = "python_button">Python<img src = "ui_images/Dropdown_black.png"></button></li>
+                    <li class = "navbar_item"><button class = "css_button">CSS<img src = "ui_images/Dropdown_black.png"></button></li>
+                    <li class = "navbar_item"><button class = "gis_button">GIS<img src = "ui_images/Dropdown_black.png"></button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class = homepage_theme id="Nav"></div>
+        <script>
+            $(function(){
+            $("#Nav").load("/navBars/Nav.html");
+            });
+        </script>
+    </div>
+
+    <script>
+        function signin(){
+            alert("Congrats your signed in!")
+        }
+    </script>
+
+    <body>
+        <div class="signinBase">
+            <h2>Sign in</h2>
+            <form action="">
+                <table class="formsignin">
+                    <tr>
+                        <td>Enter your Email:</td>
+                        <td><input type="email" name="Email" id="" ></td>
+                    </tr>
+                    <tr>
+                        <td>Enter your Password</td>
+                        <td><input type="password" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Sign in" onclick="signin()"></td>
+                    </tr>
+                </table><br>
+                <p>Don't have an account? Sign up <a href="signin.html">Here</a></p>
+
+            </form>
+        </div>
+    </body>
