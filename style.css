@@ -1108,13 +1108,17 @@ h2.branches {
     border-radius: 5px;
     width: 50%;
     padding-left: 20px;
-    background-color: antiquewhite;
+    background-color: #ffa800;
 }
 
 .signinBase h2 {
-    font-weight: 200;
+    font-weight: 800;
     padding-bottom: 0px;
     margin-bottom: 0px;
+}
+
+.signinBase {
+    font-weight: 550;
 }
 
 .formsignin{
