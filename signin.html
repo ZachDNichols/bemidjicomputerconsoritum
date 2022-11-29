@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up - Bemidji Computer Consortium</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="favicons/Home.png">
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    </head>
+
+    <header class = "home">
+        <div class = "homecontainer">
+            <h1 class = "logo">Bemidji Computer Consortium</h1>
+            <nav class = "desktop">
+                <ul>
+                    <li class = "navbar_item">
+                    <button class = "home_button">Home<img src = "ui_images/Dropdown_black.png"></button> </li>
+                    <li class = "navbar_item"><button class = "resources_button">Resources <img src = "ui_images/Dropdown_black.png"></button></li>
+                    <li class = "navbar_item"><button class = "cpp_button">C++<img src = "ui_images/Dropdown_black.png"></button></li>
+                    <li class = "navbar_item"><button class = "html_button">HTML<img src = "ui_images/Dropdown_black.png"></button></li>
+                    <li class = "navbar_item"><button class = "python_button">Python<img src = "ui_images/Dropdown_black.png"></button></li>
+                    <li class = "navbar_item"><button class = "css_button">CSS<img src = "ui_images/Dropdown_black.png"></button></li>
+                    <li class = "navbar_item"><button class = "gis_button">GIS<img src = "ui_images/Dropdown_black.png"></button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class = homepage_theme id="Nav"></div>
+        <script>
+            $(function(){
+            $("#Nav").load("/navBars/Nav.html");
+            });
+        </script>
+    </div>
+
+    <script>
+        function signup(){
+            alert("Congrats your signed up!")
+        }
+    </script>
+
+    <body>
+        <div class="signinBase">
+            <h2>Sign up</h2>
+            <form action="">
+                <table class="formsignin">
+                    <tr>
+                        <td>Enter your First Name:</td>
+                        <td><input type="text" name="Name" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>Enter your Last Name:</td>
+                        <td><input type="text" name="Name" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>Enter your Age:</td>
+                        <td><input type="number" name="" id="" size="4" maxlength="4"></td>
+                    </tr>
+                    <tr>
+                        <td>Enter your Email:</td>
+                        <td><input type="email" name="Email" id="" ></td>
+                    </tr>
+                    <tr>
+                        <td>Enter your Password</td>
+                        <td><input type="password" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>Confirm your Password</td>
+                        <td><input type="password" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>Receive our weekly news letter?</td>
+                        <td><input type="checkbox" name="emailCheck" id="" checked="true"></td>
+                    </tr>
+                    <tr></tr>
+                    <tr>
+                        <td><input type="submit" value="Sign up" onclick="signup()"></td>
+                    </tr>
+                </table><br>
+                <p>Already have an account? Sign in <a href="signin2.html">Here</a></p>
+
+            </form>
+        </div>
+    </body>
